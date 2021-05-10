@@ -1,0 +1,25 @@
+.Background
+{
+   background-color:yellow;
+}
+.title
+{
+    text-align: center;
+}
+.color
+{
+    color: green;
+    font-size: large;
+    font-family:Times New Roman;
+}
+.border
+{
+
+  border: 1px solid black;
+  padding: 25px;
+
+}
+.row
+{
+ border: 1px solid black;
+}
