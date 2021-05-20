@@ -1,0 +1,46 @@
+body{
+    padding:0;
+    margin:0;
+    background: white;
+}
+
+.navbar{
+    background-color: #e04362;
+    padding-bottom:1%;
+   
+}
+
+.navbar-brand img{
+    height: 100px;
+    width:100px;
+    object-fit: cover; 
+    margin-right:5%;
+}
+
+.nav-link,.navbar-brand{
+    color:white;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color:black;
+}
+
+.navbar-brand:hover{
+    color:black;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+@media (max-width:413px){
+    #title{
+        font-size: 0%;
+    }
+}
+
+
+
+
+

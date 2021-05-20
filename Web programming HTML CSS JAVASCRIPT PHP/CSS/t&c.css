@@ -1,0 +1,21 @@
+html, body{
+    width:100%;
+    overflow-x: hidden;
+   
+}
+.container{
+    font-family: 'Times New Roman', Times, serif
+}
+.content{
+    padding: 3%;
+    font-size:large;
+}
+.container{
+    padding:2%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+footer h5 {
+    color:#e04362;
+}

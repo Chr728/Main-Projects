@@ -1,0 +1,117 @@
+
+.btn-toolbar{
+    margin-left:11.5%;
+    width:100%;
+    height: fit-content;
+    width: 22%;
+    
+}
+.container .dropdown{
+    margin-right: 1%;  
+  }
+
+  .container a:link{color: black; text-decoration: none;}
+  .container a:visited{color: black}
+  .container a:hover{color: none}
+
+  .container ul {list-style-type: none;}
+
+#slots{
+    border-left: black;
+    border-right: black;
+    border-top: black;
+    border-bottom: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 1%;
+    margin-bottom:1%;
+} 
+
+#emptyslots{
+    border-left: white;
+    border-right: white;
+    border-top: white;
+    border-bottom: white;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 1%;
+    margin-bottom:1%;
+}
+
+#addToCartStyle{
+    background-color: #6DAFFE;
+    border-color: #334754;
+}
+
+#addToCartStyle:hover{
+    border-color:#334754;
+    background-color: #e04362;
+    color: black;
+}
+
+#p1{
+    margin-bottom: 0%;
+    margin-left: 5%;
+    font-size: 95%;
+}
+
+#p2{
+    margin-bottom: 0%;
+    margin-left: 5%;
+    font-size: 95%;
+    color: red;
+}
+
+#oldPrices{
+    margin-bottom: 0%;
+    margin-left: 5%;
+    font-size: 95%;
+    text-decoration: line-through;
+}
+
+h4 {text-align:center; margin-right: 11.5%;margin-left:11.5%;}
+
+.bigger{font-size: 14pt;}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+.container a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    color:white;
+    background-color: #6DAFFE; 
+    border-style:none;
+}
+
+.previous:hover{
+    border-color:#334754;
+    background-color: #e04362;
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.5em);
+    cursor:pointer;
+}
+
+.next{
+  background-color: #6DAFFE;
+  color:white;
+}
+
+.next:hover{
+    border-color:#334754;
+    background-color: #e04362;
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.5em);
+    cursor:pointer;
+}
+
+.round{
+   border-radius:70%;
+}

@@ -1,0 +1,17 @@
+html, body{
+  width:100%;
+  overflow-x: hidden;
+
+}
+
+.container{
+  padding:2%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+footer h5 {
+  color:#e04362;
+}
+
+
+

@@ -1,0 +1,71 @@
+
+
+button{
+    color:white;
+    background-color: #6DAFFE; 
+    border-style:none;
+    padding:3px 6px;
+    border-radius:10px;
+}
+
+button:hover{
+    border-color:#334754;
+    background-color: #e04362;
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.5em);
+    cursor:pointer;
+}
+
+table form input{
+    border-style: none;
+    text-align: center;
+    width: 40px;
+}
+
+table img{
+    padding-left: 10px;
+    height:auto;
+    width: auto;
+    max-height: 150px;
+    max-width: 150px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+footer h5 {
+    color:#e04362;
+}
+
+#specialButton{
+    color:white;
+    background-color:  #334754;
+    border-style:none;
+    padding:3px 6px;
+    border-radius:10px;
+}
+
+#specialButton:hover{
+    background-color: #e04362; 
+}
+
+.order button{
+    margin-top: 6px;
+
+}
+
+.btn{
+    background-color: #6DAFFE;
+    border:none;
+    color:white;
+}
+
+#anchorSpecial{
+    text-decoration: none;
+    color:white;
+}
+
+#anchorSpecial:hover{
+    text-decoration: none;
+    color:black;
+}

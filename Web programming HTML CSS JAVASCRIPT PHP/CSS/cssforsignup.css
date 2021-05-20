@@ -1,0 +1,40 @@
+main .button {
+    background-color: #6DAFFE;
+    border-radius: 15px;
+    width: 500px; 
+}
+
+main .button:hover{
+    border-color:#334754;
+    background-color: #e04362;
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.5em);
+    cursor:pointer;
+}
+
+form {
+    margin: 30px;
+    margin-left: 10%;
+}
+legend {
+    font-size: medium;
+    margin-left: 45%;
+    
+    
+}
+main .h5 {
+    font-size: 100%;
+    margin-left: 15%;
+
+}
+.container {
+    width: 500px;
+    clear: both;
+  }
+  
+  .container input {
+    width: 100%;
+    clear: both;
+    
+  }
