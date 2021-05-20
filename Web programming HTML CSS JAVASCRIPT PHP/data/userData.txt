@@ -1,0 +1,70 @@
+
+
+First Name: phil
+Last Name: dunphy
+Email: phil@gmail.com
+Password: phil2197
+Province: Quebec
+City: 
+Phone: 5142266556
+Address: 
+Receive Deals: 1
+Newsletter: 1
+order number: 12345AB
+
+
+First Name: S. 
+Last Name: black
+Email: sirius@gmail.com
+Password: ss
+Province: Quebec
+City: 
+Phone: 7812634567
+Address: 
+Receive Deals: 1
+Newsletter: 1
+order number: 12345BC
+Item name: Banana 
+quantity:  1
+Item name: Chicken 
+quantity: 1
+Item name: beef
+quantity: 2
+
+
+First Name: Harry 
+Last Name: Mack
+Email: hmack@gmail.com
+Password: hmack123
+Province: Quebec
+City: 
+Phone: 7812634535
+Address: 
+Receive Deals: 1
+Newsletter: 1
+order number: 12345CD
+Item name: apple
+quantity:  5
+Item name: Duck
+quantity: 1
+Item name: flour
+quantity: 3
+
+
+First Name: Tom
+Last Name: Jones
+Email: tj@gmail.com
+Password: TOMJONES12
+Province: Quebec
+City: 
+Phone: 7812634562
+Address: 
+Receive Deals: 1
+Newsletter: 1
+order number: 12345DE
+Item name: IceCream
+quantity:  4
+Item name: Orange
+quantity: 8
+Item name: Frozen Pizza
+quantity: 2

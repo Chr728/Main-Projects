@@ -1,0 +1,6 @@
+Milk;8;3
+Bagel;4;6
+Shredded Mozzarella Cheese Bag;5.99;8
+All Purpose Flour;8.29;4
+Honeycrips Apple;1.05;1
+Vanilla Ice Cream;4.99;7

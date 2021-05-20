@@ -1,0 +1,4 @@
+12345AC
+Vanilla Ice Cream,4.99,5
+Honeycrisp Apple,1.05,7
+Bartlett Pear,0.88,1
