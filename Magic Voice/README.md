@@ -1,3 +1,8 @@
+**Developpers:
+SHADI JIHA 
+CHRISTINA DARSTBANIAN
+**
+
 # ilink-hachathon-shadi-christina
 
 ## Backend
@@ -12,6 +17,3 @@
     - Index View
 
 
-Developpers
-Shadi Jiha
-Christina Darstbanian
