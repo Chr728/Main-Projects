@@ -1,4 +1,4 @@
-**Developpers:
+**Developers:
 SHADI JIHA 
 CHRISTINA DARSTBANIAN
 **
