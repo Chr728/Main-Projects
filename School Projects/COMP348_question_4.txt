@@ -1,0 +1,245 @@
+Christina Darstbanian ID 40097340
+Nareg Mouradian ID 40044254
+Aline Kurkdjian ID 40131528.
+
+Q4
+1. ? field(heat_transfer,engineering).
+The answer is true  , queries ground
+Steps: 
+course(heat_transfer, mechanical),field(mechanical,engineering).
+
+2. lab_number(fine_arts,X).
+The answer is X= 10  , queries non  ground
+Steps: 
+lab_number(fine_arts,10).
+X=10
+
+
+3. ? field(computer, literature).
+The answer is False , queries ground
+Steps:
+course(computer, Z).  
+False 
+
+4. ? course(X,Y).
+The answer is X=heat_transfer , Y = mechanical  , queries  non ground
+Steps:
+course(heat_transfer, mechanical).
+	X=heat_transfer , Y = mechanical
+if we continue putting ";"
+then we get all of them so becomes
+X = heat_transfer,
+Y = mechanical ;
+X = web_design,
+Y = computer ;
+X = design_methods,
+Y = fine-arts ;
+X = poetry,
+Y = literature.
+
+
+
+5. ? student(jeff).
+The answer is true  , queries ground
+Steps: 
+student(jeff, _).
+	student(jeff, leadership)).
+	True 
+
+
+6. ? student(john, engineering).
+The answer is true, queries ground.
+Steps:
+student(john, engineering).
+field(mechanical, engineering).  student(john, mechanical).
+course(heat_transfer, mechanical).
+		field(mechanical, mechanical). this step fails
+course(web_design, computer).
+		field(computer, mechanical). this step fails
+course(design_methods, fine-arts).
+		field(fine-arts, mechanical).this step fails
+course(poetry, literature).
+		field(literature, mechanical. this step fails
+	        student(john, mechanical). this step fails
+field(computer, engineering).   student(john, computer).
+course(heat_transfer, mechanical).
+		field(mechanical, computer).this step fails
+course(web_design, computer).
+		field(computer, computer). this step fails
+course(design_methods, fine-arts).
+		field(fine-arts, computer).this step fails
+course(poetry, literature).
+		field(literature, computer). this step fails
+	student(john, computer).this step fails
+course(heat_transfer, mechanical).
+field(mechanical, engineering).
+field(heat_transfer, engineering).student(john, heat_transfer).
+true
+	
+
+7. ? student(X, engineering).
+The answer is    X = john , queries Non-Ground
+Steps: 
+field(mechanical, engineering).
+course(heat_transfer, mechanical).
+field(mechanical, mechanical). this step fails
+course(web_design, computer).
+field(computer, mechanical).this step fails
+course(design_methods, fine-arts).
+field(fine-arts, mechanical). this step fails
+course(poetry, literature).
+field(literature, mechanical). this step fails
+	
+student(X, mechanical). this step fails
+field(computer, engineering).
+student(X, computer).
+field(X, computer).
+course(heat_transfer, mechanical).
+field(mechanical, computer).this step fails
+course(web_design, computer).
+field(computer, computer).this step fails
+course(design_methods, fine-arts).
+field(fine-arts, computer). this step fails
+course(poetry, literature).
+field(literature, computer). this step fails
+
+student(X, computer). this step fails
+course(heat_transfer mechanical).
+field(mechanical, engineering).
+field(heat_transfer, engineering).
+student(X, heat_transfer).
+student(john, heat_transfer).
+student(john, engineering).
+    X = john 
+
+
+
+
+
+
+8. ? student(X, fine-arts), course(fine_arts, Y).  
+The answer is   False, queries Ground
+Steps:
+student(X, fine-arts).
+field(X, fine-arts).
+course(heat_transfer, mechanical).
+field(mechanical, fine-arts). this step fails
+course(web_design, computer).
+field(computer, fine-arts). this step fails
+course(design_methods, fine-arts).
+field(fine-arts, fine-arts). this step fails
+course(poetry, literature).
+field(literature, fine-arts). this step fails
+student(_, fine-arts). this step fails
+False.
+
+9. ? field(_, X).
+The answer is  X = engineering , queries  non Ground
+Steps:
+field(mechanical, engineering).
+	X = engineering . 
+if user keps putting the ";"
+then we get all of them one by one so becomes
+X = engineering ;
+X = engineering ;
+X = art ;
+X = social ;
+X = business ;
+X = engineering ;
+X = engineering ;
+X = art ;
+X = social ;
+
+
+
+10. lab_number(_,X), field(X,Y).
+The answer is   False, queries Ground
+Steps:
+lab_number(mechanical, 15).
+course(15, Z). this step fails
+field(15, Y). this step fails
+lab_number(fine_arts, 10).
+course(10, Z). this step fails
+field(10,Y). this step fails
+lab_number(X, Z).
+course(heat_transfer, mechanical).
+lab_number(mechanical, 15).
+course(15, Z). this step fails
+field(15, Y). this step fails
+lab_number(mechanical, 15). this step fails
+course(web_design, computer).
+lab_number(computer, Z). this step fails
+course(design_methods, fine-arts).
+lab_number(fine-arts, Z). this step fails
+course(poetry, literature).
+lab_number(literature, Z). this step fails
+lab_number(_,X).this step fails
+False. 
+
+
+11. ? lab_number(X, 15), field(X, Y).
+The answer is   X = mechanical Y = engineering	 , queries non Ground
+if user keep putting ";" then we get
+X = mechanical,
+Y = engineering ;
+X = heat_transfer,
+Y = engineering ;
+Steps:
+lab_number(mechanical,15).
+	field(mechanical,engineering).
+X = mechanical.
+Y = engineering		
+
+
+12. student(X), !, student(X,_)
+The answer is   X = john, queries non Ground
+steps:
+student(X,_).
+student(john, heat_transfer).
+student(john, _18786).
+X=john	
+
+13. student(X),student(X,_),!
+The answer is   X = john, queries non Ground
+steps:
+student(X,_).
+student(john, heat_transfer).
+student(john, heat_transfer).
+X = john.
+ 
+
+14. ? course(X,_), \+ student(_,X). % \+ is for negation (not)
+The answer is   false, queries  Ground
+steps:
+course(heat_transfer, mechanical).
+student(john, heat_transfer).
+course(web_design,computer).
+student(alex, web_design).
+course(design_methods, fine-arts).
+student(eve, design_methods).
+course(poetry, literature).
+student(jack, poetry).
+false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

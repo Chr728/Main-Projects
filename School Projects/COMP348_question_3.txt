@@ -1,0 +1,59 @@
+//Comp 348 assignment 1, question 3
+Christina Darstbanian ID 40097340
+Nareg Mouradian ID 40044254
+Aline Kurkjian ID 40131528.
+
+
+1. food(bread, X) = Food(Y, soup)
+Answer:It will not unify since prolog is case sensitive causing a Syntax error.
+2. Bread = soup
+Answer: It will unify since they are equivalent to each other(variable Bread = soup).
+
+3. Bread = Soup
+Answer: It will unify since Bread and Soup are variables that are equivalent to each other.
+
+4. food(bread, X, milk) = food(Y, salad, X)
+Answer: It will not unify because of X. Since, X has 2 different values which is incorrect.
+
+5. manager(X) = Y
+Answer: It will unify since Y = manager(X).
+
+6. meal(healthyFood(bread), drink(milk)) = meal(X,Y)
+Answer:It will unify since X = healthyFood(bread) and Y = drink(milk).
+
+7. meal(eat(Z), drink(milk)) = [X]
+Answer:It will not unify because meal is not a list, and [X] is a list.
+
+8. [eat(Z), drink(milk)] = [X, Y | Z]
+Answer: It will unify since Z = [], X = eat([]) and Y = drink(milk).
+
+9. f(X, t(b, c)) = f(l, t(Z, c))
+Answer: It will unify since X = 1 and Z = b.
+
+10. ancestor(french(jean), B) = ancestor(A, scottish(joe))
+Answer: It will unify since B = scottish(joe) and A = fresh(jean).
+
+11. meal(healthyFood(bread), Y) = meal(X, drink(water))
+Answer:It will unify since X = healthyFood(bread) and Y = drink(water).
+
+12. [H|T] = [a, b, c]
+Answer: It will unify, since H = a and T = [b,c].
+
+13. [H, T] = [a, b, c]
+Answer: It will not unify since the Left hand side has 2 elements and the Right hand side has 3 element list.
+
+14. breakfast(healthyFood(bread), egg, milk) = breakfast(healthyFood(Y), Y, Z)
+Answer:It will not unify since Y is repeated twice, with different values that means it is incorrect.
+
+15. dinner(X, Y, Time) = dinner(jack, cook( egg, oil), Evening)
+Answer: It will unify since X = jack, Y = cook(egg, oil) and Time = Evening.
+
+16. k(s(g), Y) = k(X, t(k))
+Answer:It will unify since X = s(g) and Y = t(k).
+
+17. equation(Z, f(x, 17, M), L*M, 17) = equation(C, f(D, D, y), C, E)
+Answer: It will not unify. D has two different values, which are X and 17 which is incorrect.
+
+18. a(X, b(c, d), [H|T]) = a(X, b(c, X), b)
+Answer:It will not unify since [H|T] is a list and b is not a list.
+

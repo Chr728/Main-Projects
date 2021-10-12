@@ -1,0 +1,10 @@
+Rectangle,2,3.5
+Circle,1
+Rectangle,6,4.5
+Circle,45
+Rectangle,1,3.5
+Circle,3.2
+Rectangle,1,3.5
+Circle,5.7
+Rectangle,6,8.8
+Rectangle,6,9.5

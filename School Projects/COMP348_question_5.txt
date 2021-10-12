@@ -1,0 +1,58 @@
+/*
+Christina Darstbanian ID 40097340
+Nareg Mouradian ID 40044254
+Aline Kurkdjian ID 40131528.
+*/
+
+% All the list of students in the team  with the corresponding courses they take //
+student(christina,40097340).
+student(nareg,40044254).
+student(aline,40131528).
+course(aline,encs282).
+course(christina,comp348).
+course(nareg,comp348).
+course(aline,comp348).
+course(christina,comp352).
+
+%Question 5.1
+course_list(Y,P):-  findall(N,course(Y,N),P).
+/*
+that returns only the list with repetition.
+the answer we get is 
+P = [encs282, comp348, comp348, comp348, comp352]
+ reason I returned with repetition is because later we are asked without duplicates.
+*/
+
+/* counts the number of students in the team 
+Question 5.2
+*/
+team_size(Y,X):-  findall(Y,student(Y,_), L), length(L,X).
+%the answer is  X=3.
+
+
+/* displays courses without repetition
+Question 5.3
+list of courses without duplicates.
+*/
+unique_courses(Set):- findall(Y,course(_,Y),P),list_to_set(P, Set).
+%the answer is Set = [encs282, comp348, comp352].
+
+/* it sorts the list above that has no duplciates
+Question 5.4
+Sorting the previous list */
+sorted(S):- unique_courses(Set),sort(Set,S).
+%answer S = [comp348, comp352, encs282].
+
+/*
+Question 5.5
+?-sorted([A,B|C]).
+answer we get is 
+A = comp348,
+B = comp352,
+C = [encs282].
+*/
+
+
+
+
+
