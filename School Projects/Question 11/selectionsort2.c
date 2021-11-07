@@ -1,6 +1,6 @@
 
 // COMP 348 Assignment 2 - Question 11
-// Nareg Mouradian (40044254) , Aline Kurkdjian (40131528) , Christina Darstbanian (40097340)
+// Nareg Mouradian  , Aline Kurkdjian  , Christina Darstbanian 
 #include "selectionsort2.h"
 
 
