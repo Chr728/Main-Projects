@@ -1,8 +1,6 @@
 //-----------------------------------------------------
 //Comp 348 Assignment 1
-//Aline Kurkdjian 40131528
-//Christina Darstbanian 40097340
-//Nareg Mouradian 40044254
+// Nareg Mouradian  , Aline Kurkdjian  , Christina Darstbanian 
 //-----------------------------------------------------
 
 import java.io.IOException;
