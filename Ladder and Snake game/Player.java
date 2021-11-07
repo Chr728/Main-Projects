@@ -1,8 +1,8 @@
 //////////////////////////////////////////
 //////////////////////////////////////////
 //----------------------------------------
-/* @Christina Darstbanian   ID 40097340  
- * @Shabia Saeed    ID  40154081    
+/* @Christina Darstbanian  
+ * @Shabia Saeed        
 //COMP249  
 //Assignment #1 
   Due Date (08-FEBRUARY-2021)*/
