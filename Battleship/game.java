@@ -1,7 +1,7 @@
 
 //-------------------------------------------//
 // Assignment 4  //
-// Written by : Christina Darstbanian  ID: 40097340 03-12-2020//
+// Written by : Christina Darstbanian   03-12-2020//
 // Comp 248 Section R by Dr. Yuhong Yan  fall 2020 //
 // the program starts with a welcoming banner ,  the purpose of this program is a game game, a game that is played between a user like human being and the computer, the game is basically that each user and computer sets
 // ships and grenades in the GRID of 8 by 8 and the player who sinks all the ship of the opponent basically wins the game. Each time the player hits a grenade the opponent gets the
