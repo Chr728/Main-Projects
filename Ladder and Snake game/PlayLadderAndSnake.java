@@ -1,7 +1,7 @@
 //////////////////////////////////////////
 //----------------------------------------
-/* @Christina Darstbanian   ID 40097340  
- * @Shabia Saeed    ID  40154081    
+/* @Christina Darstbanian  
+ * @Shabia Saeed    
 //COMP249  
 //Assignment #1 
   Due Date (08-FEBRUARY-2021)*/
@@ -31,7 +31,7 @@ public class PlayLadderAndSnake {
 			int attempts=1;
 			// a do while loop it goes until while condition turns wrong
 			do {
-				System.out.println("Enter the # of players for your game – Number must be between 2 and 4 inclusively: ");	
+				System.out.println("Enter the # of players for your game â€“ Number must be between 2 and 4 inclusively: ");	
 			    Scanner scan = new Scanner(System.in);
 			    x= scan.nextInt();
 			    // ha is a random variable to iterate over a loop
