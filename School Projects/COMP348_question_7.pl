@@ -1,6 +1,6 @@
 /*
  * COMP 348 Assignment 1 - Question 7
- * Nareg Mouradian (40044254) , Aline Kurkdjian (40131528) , Christina Darstbanian (40097340)
+ * Nareg Mouradian  , Aline Kurkdjian  , Christina Darstbanian 
  */
 %and with 2 inputs
 and(1,1,1).
