@@ -1,7 +1,5 @@
 //Comp 348 assignment 1, question 3
-Christina Darstbanian ID 40097340
-Nareg Mouradian ID 40044254
-Aline Kurkjian ID 40131528.
+// Nareg Mouradian  , Aline Kurkdjian  , Christina Darstbanian 
 
 
 1. food(bread, X) = Food(Y, soup)
