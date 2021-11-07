@@ -1,6 +1,6 @@
 /*
  * COMP 348 Assignment 1 - Question 8
- * Nareg Mouradian (40044254) , Aline Kurkdjian (40131528) , Christina Darstbanian (40097340)
+ * Nareg Mouradian  , Aline Kurkdjian  , Christina Darstbanian 
  */
 %Base Case 1: When the list that is passed on is empty. We return an empty list.
 every-other([],[]).
