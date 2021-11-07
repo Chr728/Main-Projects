@@ -1,6 +1,6 @@
 /*
  * COMP 348 Assignment 1 - Question 6
- * Nareg Mouradian (40044254) , Aline Kurkdjian (40131528) , Christina Darstbanian (40097340)
+ * Nareg Mouradian  , Aline Kurkdjian  , Christina Darstbanian 
  */
 %accept and path are taken from the notes on slide 20 of the prolog applications pdf
 accept(Xs) :- start(Q), path(Q, Xs).
