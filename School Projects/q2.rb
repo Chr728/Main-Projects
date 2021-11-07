@@ -1,5 +1,5 @@
 #COMP 348 Assignment 3- Question 2
-# Nareg Mouradian (40044254) , Aline Kurkdjian (40131528) , Christina Darstbanian (40097340)
+#  Nareg Mouradian  , Aline Kurkdjian  , Christina Darstbanian 
 
 load "Circle.rb"
 load "Shape.rb"
