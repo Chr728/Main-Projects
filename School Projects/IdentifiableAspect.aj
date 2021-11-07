@@ -1,5 +1,5 @@
 // COMP 348 Assignment 3 - Questions 4 to 8, AspectJ Part
-// Nareg Mouradian (40044254) , Aline Kurkdjian (40131528) , Christina Darstbanian (40097340)
+// Nareg Mouradian  , Aline Kurkdjian  , Christina Darstbanian 
 
 //Made the aspect privileged to be able to access the private variables of the other files
 public privileged  aspect IdentifiableAspect {
