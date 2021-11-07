@@ -1,7 +1,5 @@
 /*
-Christina Darstbanian ID 40097340
-Nareg Mouradian ID 40044254
-Aline Kurkdjian ID 40131528.
+// Nareg Mouradian  , Aline Kurkdjian  , Christina Darstbanian 
 */
 
 % All the list of students in the team  with the corresponding courses they take //
