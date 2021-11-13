@@ -4,8 +4,8 @@
  * Assignment 2
  * Summer 2021
  * 
- * James Partsafas 40170301
- * Christina Darstbanian 40097340
+ * James Partsafas 
+ * Christina Darstbanian
  */
 public class MyBST {
 	
