@@ -227,7 +227,7 @@ public class customer {
 	 */
 		public static void isvalid() throws Exception{
 			String s1 = "CarRentalRecord";
-			Scanner sc3 = new Scanner(new FileInputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg3_Files\\"+s1+".CSV"));
+			Scanner sc3 = new Scanner(new FileInputStream(".\\"+s1+".CSV"));
 			String top= sc3.nextLine();
 			
 			
@@ -237,7 +237,7 @@ public class customer {
 			
 		public static void isvalid2() throws Exception{
 			String s2= "CarMaintenanceRecord";
-			Scanner sc4 = new Scanner(new FileInputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg3_Files\\"+s2+".CSV"));
+			Scanner sc4 = new Scanner(new FileInputStream(".\\"+s2+".CSV"));
 			String topn= sc4.nextLine();
 			
 				if(topn.contains(",,")|| topn.charAt(topn.length()-1) == ',' || topn.charAt(0) == ',' )
@@ -248,10 +248,10 @@ public class customer {
 		try {  // in case if there is anything missing then in this method will open a log file and report inside it missing ones.
 
 			PrintWriter pwlog2=null;					
-			 pwlog2=new PrintWriter(new FileOutputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg3_Files\\"+"CSVDataMissingLogfile"+".txt"));
+			 pwlog2=new PrintWriter(new FileOutputStream(".\\"+"CSVDataMissingLogfile"+".txt"));
 			
 			 String s1 = "CarRentalRecord";
-				Scanner sc4 = new Scanner(new FileInputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg3_Files\\"+s1+".CSV"));
+				Scanner sc4 = new Scanner(new FileInputStream(".\\"+s1+".CSV"));
 				 
 				String header= sc4.nextLine();
 				String[] titles = header.split(",",-1);int datafullcount2=8;int dataemptycount2= 0; //datafullcount represent the non empty information of the file whereas the dataemptycount represents the empty ones
@@ -310,9 +310,9 @@ public class customer {
 		
 		try { // trying same steps with the second file
 		 PrintWriter pwlog5=null;					
-		 pwlog5=new PrintWriter(new FileOutputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg3_Files\\"+"CSVDataMissingLogfile2"+".txt"));
+		 pwlog5=new PrintWriter(new FileOutputStream(".\\"+"CSVDataMissingLogfile2"+".txt"));
 		 String s2 = "CarMaintenanceRecord";
-			Scanner sc5 = new Scanner(new FileInputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg3_Files\\"+s2+".CSV"));
+			Scanner sc5 = new Scanner(new FileInputStream(".\\"+s2+".CSV"));
 			String header1= sc5.nextLine();
 			String[] titles1 = header1.split(",",-1);int datafullcount22=9;int dataemptycount22= 0;
 			pwlog5.println("<<<<<<<<In File CarRentalRecord.CSV>>>>>>>>>> ");pwlog5.println();pwlog5.println();pwlog5.println();
@@ -419,12 +419,12 @@ public class customer {
 
 				try {
 					PrintWriter pwlog=null;
-			pwlog=new PrintWriter(new FileOutputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg3_Files\\"+"CSVFileInvalidExceptionLogfile"+".txt"));
+			pwlog=new PrintWriter(new FileOutputStream(".\\"+"CSVFileInvalidExceptionLogfile"+".txt"));
 			
 
 			String s1 = "CarRentalRecord";
 
-			Scanner sc4 = new Scanner(new FileInputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg3_Files\\"+s1+".CSV"));
+			Scanner sc4 = new Scanner(new FileInputStream(".\\"+s1+".CSV"));
 			pwlog.println("File CarRentalRecord.CSV is  invalid");
 			pwlog.println("File was not converted to .json");
 			while(sc4.hasNextLine()) {
@@ -466,11 +466,11 @@ public class customer {
 
             try { // repeating same steps with the second file
             	String s2= "CarMaintenanceRecord";
-			Scanner sc5 = new Scanner(new FileInputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg3_Files\\"+s2+".CSV"));
+			Scanner sc5 = new Scanner(new FileInputStream(".\\"+s2+".CSV"));
             	PrintWriter pwlog3=null;
 			while(sc5.hasNextLine()) {
 				
-				pwlog3 =new PrintWriter(new FileOutputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg3_Files\\"+"CSVFileInvalidExceptionLogfile2"+".txt"));
+				pwlog3 =new PrintWriter(new FileOutputStream(".\\"+"CSVFileInvalidExceptionLogfile2"+".txt"));
 
 				pwlog3.println("File CarRentalRecord.CSV is  invalid");
 				pwlog3.println("File was not converted to .json");
@@ -548,10 +548,10 @@ public class customer {
 		
 		try
 		{
-			sc = new Scanner(new FileInputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg3_Files\\"+s1+".CSV"));
-			sc1 = new Scanner(new FileInputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg3_Files\\"+s2+".CSV"));	
-			pw=new PrintWriter(new FileOutputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg3_Files\\"+s1+".json"));
-			pw1=new PrintWriter(new FileOutputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg3_Files\\"+s2+".json"));
+			sc = new Scanner(new FileInputStream(".\\"+s1+".CSV"));
+			sc1 = new Scanner(new FileInputStream(".\\"+s2+".CSV"));	
+			pw=new PrintWriter(new FileOutputStream(".\\"+s1+".json"));
+			pw1=new PrintWriter(new FileOutputStream(".\\"+s2+".json"));
 
 		}
 		catch(FileNotFoundException e) // in case none of the files can be created then it throws error exception 
@@ -595,7 +595,7 @@ public class customer {
 			 try {
 				
     System.out.println("Please enter the  name of the file you wish to read and display: ");name1=kb.next(); 
-					br = new BufferedReader(new FileReader("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg3_Files\\"+name1+".json"));
+					br = new BufferedReader(new FileReader(".\\"+name1+".json"));
 						
 						
 					String lines = br.readLine();
