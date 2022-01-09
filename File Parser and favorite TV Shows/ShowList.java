@@ -411,7 +411,7 @@ public class ShowList {
 			
 			/// try and catch block 
 			
-			sc = new Scanner(new FileInputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg4_Files\\"+s1+".txt"));
+			sc = new Scanner(new FileInputStream(".\\"+s1+".txt"));
 			
 
 			double startTime = 1;
@@ -465,8 +465,8 @@ public class ShowList {
 			
 			
 			System.out.println("Please enter the  name of the file you need to check : ");name1=kb.next(); 
-			sc1 = new Scanner(new FileInputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg4_Files\\"+name1+".txt"));
-			pw=new PrintWriter(new FileOutputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg4_Files\\"+"results"+".txt"));
+			sc1 = new Scanner(new FileInputStream(".\\"+name1+".txt"));
+			pw=new PrintWriter(new FileOutputStream(".\\"+"results"+".txt"));
 // having them in two array list in order to distinguish between them
 			ArrayList<String> A2 = new ArrayList<String>(); 
 			ArrayList<String> A3 = new ArrayList<String>(); 
