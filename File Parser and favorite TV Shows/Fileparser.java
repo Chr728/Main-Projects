@@ -140,19 +140,19 @@ public class Fileparser {
 			/*
 			 * opening all the scanners and closing them  
 			 */
-			sc = new Scanner(new FileInputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg4_Files\\"+name+".txt"));
+			sc = new Scanner(new FileInputStream(".\\"+name+".txt"));
 			
 			
-			sc1 = new Scanner(new FileInputStream("C:\\Users\\chris\\eclipse-workspace\\Comp249_W21_Assg4_Files\\"+name+".txt"));
+			sc1 = new Scanner(new FileInputStream(".\\"+name+".txt"));
 				
 			System.out.println();System.out.println("We are processing this file........please wait it will not take long ");
 			System.out.println();
 			System.out.println("Processing was complete and now you can check the output files");
 
-			pw=new PrintWriter(new FileOutputStream("C:\\\\Users\\\\chris\\\\eclipse-workspace\\\\Comp249_W21_Assg4_Files\\"+"distinct_ddata"+".txt"));
+			pw=new PrintWriter(new FileOutputStream(".\\"+"distinct_ddata"+".txt"));
 
-			pw1=new PrintWriter(new FileOutputStream("C:\\\\Users\\\\chris\\\\eclipse-workspace\\\\Comp249_W21_Assg4_Files\\"+"vowel_vverbiage"+".txt"));
-			pw2=new PrintWriter(new FileOutputStream("C:\\\\Users\\\\chris\\\\eclipse-workspace\\\\Comp249_W21_Assg4_Files\\"+"obsessive_oo"+".txt"));
+			pw1=new PrintWriter(new FileOutputStream(".\\"+"vowel_vverbiage"+".txt"));
+			pw2=new PrintWriter(new FileOutputStream(".\\"+"obsessive_oo"+".txt"));
 			
 		}
 		/*
