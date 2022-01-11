@@ -41,7 +41,7 @@
 			
 		</form>
 	<br><br>
-		<!-- the insert, delete and update  functions are called respectively   -->
+		<!-- Insert, Delete and Update  functions are called respectively   -->
 		<%  
 		
 			if(request.getParameter("quantity") != null && request.getParameter("name") !=null && !request.getParameter("quantity").isEmpty()){  
