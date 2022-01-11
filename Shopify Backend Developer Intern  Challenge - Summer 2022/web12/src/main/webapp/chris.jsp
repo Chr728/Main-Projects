@@ -1,3 +1,5 @@
+<!-- Author christina Darstbanian , this is the page that needs to be run in order to see the requirements -->
+
 <%@ page import="web12.*"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
@@ -39,18 +41,21 @@
 			
 		</form>
 	<br><br>
+		<!-- the insert function is called  -->
 		<%  
+		
 			if(request.getParameter("quantity") != null && request.getParameter("name") !=null && !request.getParameter("quantity").isEmpty()){  
 				list.insertitem(Integer.parseInt(request.getParameter("quantity")), request.getParameter("name"));
 				
 			}
 			
-			
+			<!-- the delete function is called  -->
 			
 			if((request.getParameter("removeID") != null )){
 				list.deletetitem(Integer.parseInt(request.getParameter("removeID")));	
 			} 
 			
+			<!-- the update function is called  -->
 			if((request.getParameter("updatedID") != null  && !request.getParameter("updatedQuantity").isEmpty())){
 				list.updateitem(Integer.parseInt(request.getParameter("updatedID")),
 						Integer.parseInt(request.getParameter("updatedQuantity")), request.getParameter("updatedName"));
@@ -68,6 +73,7 @@
 						<label>Quantity</label> <input type="number" id="updatedQuantity" name="updatedQuantity" value="<%out.print(request.getParameter("updateQuantity"));%>"><br>
 						<input type="submit" value="update">
 					</form>
+		<!-- below is to display the items as a list ( being the last CRUD requirement)  -->
 					<%
 			} else {
 		
