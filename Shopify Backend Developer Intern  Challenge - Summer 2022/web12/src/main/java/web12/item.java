@@ -1,5 +1,9 @@
 package web12;
+/*
 
+Author: Christina Darstbanian
+The class includes methods to retrieve data needed for specific item.
+*/
 
 
 public class item {
