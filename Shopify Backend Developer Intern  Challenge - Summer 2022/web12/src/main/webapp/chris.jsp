@@ -41,7 +41,7 @@
 			
 		</form>
 	<br><br>
-		<!-- the insert function is called  -->
+		<!-- the insert, delete and update  functions are called respectively   -->
 		<%  
 		
 			if(request.getParameter("quantity") != null && request.getParameter("name") !=null && !request.getParameter("quantity").isEmpty()){  
@@ -49,13 +49,13 @@
 				
 			}
 			
-			<!-- the delete function is called  -->
+			
 			
 			if((request.getParameter("removeID") != null )){
 				list.deletetitem(Integer.parseInt(request.getParameter("removeID")));	
 			} 
 			
-			<!-- the update function is called  -->
+			
 			if((request.getParameter("updatedID") != null  && !request.getParameter("updatedQuantity").isEmpty())){
 				list.updateitem(Integer.parseInt(request.getParameter("updatedID")),
 						Integer.parseInt(request.getParameter("updatedQuantity")), request.getParameter("updatedName"));
